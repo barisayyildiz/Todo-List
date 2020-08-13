@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="container">
+
+		<h2 id="header">Todo List</h2>
+
+		<div id="inputContainer">
+			<input type="text" name="" id="userInput">
+			<button id="add" onclick="addButton()">Add</button>
+		</div>
+
+
+		<ul id="list">
+			<li>
+				<span onclick="myFunction(this)" class="element">Eat</span>
+				<button class="delete" onclick="parentNode.remove();">Delete</button>
+			</li>
+			<li>
+				<span onclick="myFunction(this)" class="element">Sleep</span>
+				<button class="delete" onclick="parentNode.remove();">Delete</button>
+			</li>
+			<li>
+				<span onclick="myFunction(this)" class="element">Code</span>
+				<button class="delete" onclick="parentNode.remove();">Delete</button>
+			</li>
+		</ul>
+
+
+	</div>
+
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
